@@ -1,116 +1,248 @@
 :root {
-    --primary-color: #333;
-    --secondary-color: #666;
-    --accent-color: #0366d6;
-    --bg-color: #f9f9f9;
+    --primary-text: #2c3e50;
+    --secondary-text: #596e82;
+    --accent-color: #2980b9;
+    --accent-hover: #3498db;
+    --bg-color: #f0f2f5;
     --card-bg: #ffffff;
     --border-color: #e1e4e8;
+    --header-bg: #ffffff;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
-    color: var(--primary-color);
+    color: var(--primary-text);
     background-color: var(--bg-color);
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: var(--card-bg);
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.main-header {
+    background-color: var(--header-bg);
     padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-header {
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     margin-bottom: 40px;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-h1 {
+.header-content h1 {
     margin: 0;
     font-size: 2.5rem;
-    font-weight: 700;
+    color: var(--primary-text);
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: var(--secondary-color);
-    margin: 5px 0 0 0;
+    color: var(--secondary-text);
+    margin: 5px 0 15px 0;
 }
 
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: var(--secondary-text);
+    font-size: 0.95rem;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.primary-btn {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-1px);
+}
+
+/* Sections */
 section {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: var(--primary-text);
+    margin-bottom: 25px;
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    display: inline-block;
 }
 
-.file-list {
-    list-style: none;
-    padding: 0;
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 
-.file-list li {
-    margin-bottom: 10px;
+/* Cards */
+.card {
+    background-color: var(--card-bg);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
 }
 
-.file-link {
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primary-text);
+}
+
+.card h3 i {
+    margin-right: 8px;
+    color: var(--accent-color);
+}
+
+.tag {
+    font-size: 0.75rem;
+    background-color: #e1effe;
+    color: #1e429f;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.card p {
+    color: var(--secondary-text);
+    font-size: 0.95rem;
+    margin: 0 0 20px 0;
+    flex-grow: 1;
+}
+
+.card-link {
     text-decoration: none;
     color: var(--accent-color);
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.9rem;
     display: inline-flex;
     align-items: center;
-    transition: color 0.2s;
+    gap: 5px;
 }
 
-.file-link:hover {
+.card-link:hover {
     text-decoration: underline;
-    color: #005cc5;
 }
 
-.file-link::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.6;
+/* About Section */
+.about-section p {
+    font-size: 1.1rem;
+    color: var(--primary-text);
+    max-width: 800px;
+    margin-bottom: 15px;
 }
 
-/* Simple icons using CSS shapes or unicode, or just distinct styling */
-/* For simplicity, let's use emoji or basic unicode characters for now as pseudo-elements
-   In a real production environment, SVG icons would be better. */
+/* Lists */
+.simple-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
 
-.file-link.pdf::before { content: '📄'; }
-.file-link.docx::before { content: '📝'; }
-.file-link.xlsx::before { content: '📊'; }
-.file-link.csv::before { content: '📉'; }
-.file-link.folder::before { content: '📁'; }
+.simple-list li {
+    margin-bottom: 8px;
+}
 
+.simple-list a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.simple-list a:hover {
+    text-decoration: underline;
+}
+
+/* Expand Section */
+details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--secondary-text);
+    padding: 10px 0;
+    user-select: none;
+}
+
+details summary:hover {
+    color: var(--primary-text);
+}
+
+/* Footer */
 footer {
-    margin-top: 60px;
     text-align: center;
-    color: var(--secondary-color);
+    margin-top: 60px;
+    padding: 20px;
+    color: var(--secondary-text);
     font-size: 0.9rem;
+    border-top: 1px solid var(--border-color);
 }
 
-@media (max-width: 600px) {
+/* Media Queries */
+@media (max-width: 768px) {
     .container {
-        padding: 20px;
+        margin: 20px auto;
     }
 
-    h1 {
-        font-size: 2rem;
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .header-actions {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .btn {
+        display: block;
+        text-align: center;
     }
 }

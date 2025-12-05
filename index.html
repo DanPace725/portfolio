@@ -5,67 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Pace - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Daniel Pace</h1>
-            <p class="subtitle">Portfolio</p>
+        <header class="main-header">
+            <div class="header-content">
+                <h1>Daniel Pace</h1>
+                <p class="subtitle">Psychology Researcher & Creative Technologist</p>
+                <div class="social-links">
+                    <a href="mailto:paced@sou.edu"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://github.com/DanPace725" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <!-- Placeholder for LinkedIn if available, derived from CV -->
+                    <a href="https://www.linkedin.com/in/danielapace" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Daniel_Pace_resume%202024.pdf" target="_blank" class="btn primary-btn">View Resume</a>
+            </div>
         </header>
-        <section>
-            <h2>Resume</h2>
-            <ul class="file-list">
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Daniel_Pace_resume%202024.pdf" target="_blank" class="file-link pdf">Daniel_Pace_resume 2024.pdf</a></li>
-            </ul>
+
+        <section class="about-section">
+            <h2>About Me</h2>
+            <p>I am a B.S. Psychology student at Southern Oregon University with a strong focus on the intersection of cognitive science, AI, and decision-making. My research explores how information environments structure human agency and how we can design better interfaces for neurodivergent minds.</p>
+            <p>I combine a background in psychology with technical skills in Next.js, Python, and data analysis to build tools that support human cognition, such as the <em>Brain Explorer</em> and the <em>ACE Application</em>.</p>
         </section>
-        <section>
+
+        <section class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="grid-container">
+                <div class="card project-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-brain"></i> BrainDB Project</h3>
+                        <span class="tag">Next.js</span>
+                    </div>
+                    <p>A web application for exploring hierarchical brain structures and functions. It utilizes React and Tailwind CSS to visualize complex neurological data.</p>
+                    <a href="https://github.com/DanPace725/portfolio/tree/main/raw%20content/braindb%20project" target="_blank" class="card-link">View Project Code <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="card project-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-tasks"></i> ACE Application</h3>
+                        <span class="tag">Concept</span>
+                    </div>
+                    <p>The "Adaptive Cognitive Enhancement" application is a gamified task-tracking system for executive function support, grounded in behavioral activation principles.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/ACE_Philosophy_.pdf" target="_blank" class="card-link">Read Philosophy <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="card project-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-robot"></i> AI Learning Assistant</h3>
+                        <span class="tag">Research</span>
+                    </div>
+                    <p>Investigation into interface design choices in AI-assisted learning environments and their effect on cognitive load and decision-making.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/AI%20Learning%20Assistant.pdf" target="_blank" class="card-link">Read Paper <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="research-section">
             <h2>Research & Philosophy</h2>
-            <ul class="file-list">
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/ACE_Philosophy_.pdf" target="_blank" class="file-link pdf">ACE_Philosophy_.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Cognition%20Poster.pdf" target="_blank" class="file-link pdf">Cognition Poster.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Effects%20of%20Digital%20Therapy%20Interventions%20on%20Student%20Stress.pdf" target="_blank" class="file-link pdf">Effects of Digital Therapy Interventions on Student Stress.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Frustration%20and%20Mood%20Effects%20in%20ASD%20-%20Pace%2C%20Daniel%20-%207.22.25.docx" target="_blank" class="file-link docx">Frustration and Mood Effects in ASD - Pace, Daniel - 7.22.25.docx</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Psi-Wave_Companion%20Doc%20Theory.pdf" target="_blank" class="file-link pdf">Psi-Wave_Companion Doc Theory.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/PsychoCompugenics%20Overview.pdf" target="_blank" class="file-link pdf">PsychoCompugenics Overview.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Resilient_Framework_for_Substance_Misuse_Prevention__Treatment__and_Recovery.pdf" target="_blank" class="file-link pdf">Resilient_Framework_for_Substance_Misuse_Prevention__Treatment__and_Recovery.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Rethinking%20Academic%20Integrity%20in%20the%20Age%20of%20AI%20%281%29.pdf" target="_blank" class="file-link pdf">Rethinking Academic Integrity in the Age of AI (1).pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Second-Hand_Wealth_Inequality.pdf" target="_blank" class="file-link pdf">Second-Hand_Wealth_Inequality.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/U__A_Quantitative_Metric_of_Usefulness.pdf" target="_blank" class="file-link pdf">U__A_Quantitative_Metric_of_Usefulness.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/%CF%87-Wave%20Mode_%20Operational%20Companion%20Document.pdf" target="_blank" class="file-link pdf">χ-Wave Mode_ Operational Companion Document.pdf</a></li>
-            </ul>
+            <div class="grid-container">
+                <div class="card file-card">
+                    <h3>Human-AI Creative Collaboration (HAIC)</h3>
+                    <p>A theoretical model describing cognitive processes and agency distribution in hybrid human-AI creative systems.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Human-AI%20Creative%20Collaboration%20Framework%20%28HAIC%29%20%283%29%20%281%29.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+
+                <div class="card file-card">
+                    <h3>OpenAI Safety Testing Proposal</h3>
+                    <p>Evaluation protocols for systematically analyzing AI persuasion patterns, academic integrity vulnerabilities, and ethical safeguards.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Proposal%20for%20OpenAI%E2%80%99s%20Safety%20Testing%20Program_%20Center%20for%20Advancement%20of%20Technology%20and%20Learning%20%28CATL%29_.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+
+                <div class="card file-card">
+                    <h3>PsychoCompugenics</h3>
+                    <p>A framework overview for synthetic AI cognition.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/PsychoCompugenics%20Overview.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+
+                <div class="card file-card">
+                    <h3>Digital Therapy & Student Stress</h3>
+                    <p>Research protocol investigating CBT-style digital interventions on student stress levels.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Effects%20of%20Digital%20Therapy%20Interventions%20on%20Student%20Stress.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+
+                 <div class="card file-card">
+                    <h3>Cognition Poster</h3>
+                    <p>Visual presentation of cognitive theories, attention dynamics, and memory mechanisms.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Cognition%20Poster.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+
+                <div class="card file-card">
+                    <h3>Psi-Wave Theory</h3>
+                    <p>Theoretical companion document regarding Psi-Wave dynamics.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Psi-Wave_Companion%20Doc%20Theory.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+
+                 <div class="card file-card">
+                    <h3>Academic Integrity in Age of AI</h3>
+                    <p>Analysis of academic integrity challenges and policy recommendations.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Rethinking%20Academic%20Integrity%20in%20the%20Age%20of%20AI%20%281%29.pdf" target="_blank" class="file-link pdf">View PDF</a>
+                </div>
+            </div>
+
+            <div class="expand-section">
+                <details>
+                    <summary>More Research Documents</summary>
+                    <ul class="simple-list">
+                         <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Frustration%20and%20Mood%20Effects%20in%20ASD%20-%20Pace%2C%20Daniel%20-%207.22.25.docx" target="_blank">Frustration and Mood Effects in ASD (DOCX)</a></li>
+                         <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Resilient_Framework_for_Substance_Misuse_Prevention__Treatment__and_Recovery.pdf" target="_blank">Resilient Framework for Substance Misuse (PDF)</a></li>
+                         <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Second-Hand_Wealth_Inequality.pdf" target="_blank">Second-Hand Wealth Inequality (PDF)</a></li>
+                         <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/U__A_Quantitative_Metric_of_Usefulness.pdf" target="_blank">A Quantitative Metric of Usefulness (PDF)</a></li>
+                         <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/%CF%87-Wave%20Mode_%20Operational%20Companion%20Document.pdf" target="_blank">χ-Wave Mode Operational Companion (PDF)</a></li>
+                         <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Distributed_Failure_Analysis.pdf" target="_blank">Distributed Failure Analysis (PDF)</a></li>
+                    </ul>
+                </details>
+            </div>
         </section>
-        <section>
-            <h2>Projects & Proposals</h2>
-            <ul class="file-list">
-                <li><a href="https://github.com/DanPace725/portfolio/tree/main/raw%20content/braindb%20project" target="_blank" class="file-link folder">braindb project</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/AI%20Learning%20Assistant.pdf" target="_blank" class="file-link pdf">AI Learning Assistant.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Distributed_Failure_Analysis.pdf" target="_blank" class="file-link pdf">Distributed_Failure_Analysis.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Human-AI%20Creative%20Collaboration%20Framework%20%28HAIC%29%20%283%29%20%281%29.pdf" target="_blank" class="file-link pdf">Human-AI Creative Collaboration Framework (HAIC) (3) (1).pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Proposal%20for%20OpenAI%E2%80%99s%20Safety%20Testing%20Program_%20Center%20for%20Advancement%20of%20Technology%20and%20Learning%20%28CATL%29_.pdf" target="_blank" class="file-link pdf">Proposal for OpenAI’s Safety Testing Program_ Center for Advancement of Technology and Learning (CATL)_.pdf</a></li>
-            </ul>
+
+        <section class="data-section">
+            <h2>Data & Resources</h2>
+             <div class="grid-container">
+                <div class="card file-card">
+                    <h3>Brain Structure Dataset</h3>
+                    <p>Comprehensive hierarchical data of brain divisions, subdivisions, and functions.</p>
+                    <div class="links">
+                        <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Master%20Table%20.csv" target="_blank" class="file-link csv">Master Table</a>
+                        <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/brain_structure.csv" target="_blank" class="file-link csv">Structure Data</a>
+                    </div>
+                </div>
+                <div class="card file-card">
+                    <h3>Popular Vote Stats</h3>
+                    <p>Statistical data regarding popular votes.</p>
+                    <a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Popular%20Vote%20Stats.xlsx" target="_blank" class="file-link xlsx">View Excel</a>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Other Documents</h2>
-            <ul class="file-list">
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Statement%20of%20Objectives%20draft.docx" target="_blank" class="file-link docx">Statement of Objectives draft.docx</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Jackson%20Street%20Training%20Plan%20Final.docx" target="_blank" class="file-link docx">Jackson Street Training Plan Final.docx</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Production_Bonus_v2.pdf" target="_blank" class="file-link pdf">Production_Bonus_v2.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Process%20steps.pdf" target="_blank" class="file-link pdf">Process steps.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Project%20Workflow.pdf" target="_blank" class="file-link pdf">Project Workflow.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/PCG%20Terminology.pdf" target="_blank" class="file-link pdf">PCG Terminology.pdf</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Substack%20posts.docx" target="_blank" class="file-link docx">Substack posts.docx</a></li>
-            </ul>
+
+        <section class="other-section">
+             <div class="expand-section">
+                <details>
+                    <summary>Other Documents & Drafts</summary>
+                     <ul class="simple-list">
+                        <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Statement%20of%20Objectives%20draft.docx" target="_blank">Statement of Objectives draft.docx</a></li>
+                        <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Jackson%20Street%20Training%20Plan%20Final.docx" target="_blank">Jackson Street Training Plan Final.docx</a></li>
+                        <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Production_Bonus_v2.pdf" target="_blank">Production_Bonus_v2.pdf</a></li>
+                        <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Process%20steps.pdf" target="_blank">Process steps.pdf</a></li>
+                        <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Project%20Workflow.pdf" target="_blank">Project Workflow.pdf</a></li>
+                        <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/PCG%20Terminology.pdf" target="_blank">PCG Terminology.pdf</a></li>
+                    </ul>
+                </details>
+            </div>
         </section>
-        <section>
-            <h2>Data</h2>
-            <ul class="file-list">
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Master%20Table%20.csv" target="_blank" class="file-link csv">Master Table .csv</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/Popular%20Vote%20Stats.xlsx" target="_blank" class="file-link xlsx">Popular Vote Stats.xlsx</a></li>
-                <li><a href="https://github.com/DanPace725/portfolio/blob/main/raw%20content/brain_structure.csv" target="_blank" class="file-link csv">brain_structure.csv</a></li>
-            </ul>
-        </section>
+
         <footer>
-            <p>&copy; 2025 Daniel Pace</p>
+            <p>&copy; 2025 Daniel Pace. Built with simple HTML & CSS.</p>
         </footer>
     </div>
 </body>
