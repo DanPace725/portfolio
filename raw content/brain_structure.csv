@@ -1,0 +1,63 @@
+Term,Category,Parent,Function,Child
+Untitled,,,,
+Forebrain,Division,,"Forebrain: Governs complex cognitive functions such as thought, emotion, and voluntary movement.","Telencephalon , Diencephalon , Lateral Ventricle, Third Ventricle"
+Midbrain,Division,Brain Stem,Relays sensory and motor signals and manages basic visual and auditory reflexes.,"Mesencephalon , Cerebral Aqueduct"
+Hindbrain,Division,Brain Stem,"Controls essential life-sustaining functions like breathing, heartbeat, and motor coordination.","Metencephalon , Myelencephalon , Fourth Ventricle"
+Telencephalon,Subdivision,Forebrain,"Manages higher brain functions, including sensory perception, motor skills, and cognition.","Cerebrum , Cerebral Cortex, Basal Ganglia, Limbic System, Corpus Callosum"
+Diencephalon,Subdivision,Forebrain,Acts as a relay station for sensory information and helps regulate autonomic functions and emotions.,"Thalamus, Hypothalamus, Reticular Formation"
+Mesencephalon,Subdivision,Midbrain,Coordinates sensory input with motor responses and is crucial for vision and hearing reflexes.,"Tectum, Tegmentum, Reticular Formation , Periaquaductal gray matter, Red Nucleus, Substantia Niagra"
+Metencephalon,Subdivision,Hindbrain,"Involved in motor control and coordination, particularly through the cerebellum and pons.","Cerebellum, Pons"
+Myelencephalon,Subdivision,Hindbrain,"Controls vital autonomic functions such as heart rate, breathing, and blood pressure through the medulla oblongata.",Medulla Oblongata
+Cerebrum,Region,Telencephalon,"Responsible for integrating sensory information, reasoning, emotions, and voluntary motor activities.","Cerebral Cortex, Basal Ganglia, Limbic System"
+Cerebral Cortex,Structure,"Telencephalon , Cerebrum","The outermost layer of the cerebrum, responsible for higher-order brain functions, including perception, thought, and decision-making.","Frontal Lobe, Parietal Lobe, Temporal Lobe, Occipital Lobe"
+Basal Ganglia,Structure,"Telencephalon , Cerebrum","A group of nuclei that regulate voluntary motor movements, procedural learning, and habits.",
+Limbic System,Region,"Telencephalon , Cerebrum","A complex system responsible for emotion,  behavior, motivation, and memory.","Limbic Cortex, Cingulate Gyrus, Hippocampus, Amygdala, Fornix, Mammillary Bodies"
+Thalamus,Structure,Diencephalon,"Acts as the brainâ€™s relay center,  processing and transmitting sensory and motor signals to the cerebral cortex.",Massa Intermedia
+Hypothalamus,Structure,Diencephalon,"Maintains homeostasis by regulating bodily functions such as temperature, hunger, and thirst, and controlling the endocrine system.","Pituitary Gland, Optic Chiasm"
+Lateral Ventricle,Ventricle,Forebrain,Produces and circulates cerebrospinal fluid in the brain.,
+Third Ventricle,Ventricle,Forebrain,Acts as a channel for cerebrospinal fluid between the lateral ventricles and the fourth ventricle.,
+Cerebral Aqueduct,Ventricle,Midbrain,"Connects the third and fourth ventricles, allowing the flow of cerebrospinal fluid.",
+Fourth Ventricle,Ventricle,Hindbrain,"Acts as a fluid-filled cavity between the brainstem and the cerebellum, playing a role in protecting the brain from trauma.",
+Frontal Lobe,Lobe,Cerebral Cortex,"Responsible for complex cognitive functions such as decision-making, problem-solving, planning, and controlling voluntary  movements.","Motor Cortex, Motor Association Cortex"
+Parietal Lobe,Lobe,Cerebral Cortex,"Processes sensory information like touch,  temperature, and spatial awareness.","Somatosensory Cortex, Sensory Association Cortex"
+Temporal Lobe,Lobe,Cerebral Cortex,"Involved in processing auditory information,  memory, and language comprehension.",Auditory Cortex
+Occipital Lobe,Lobe,Cerebral Cortex,Primarily responsible for processing visual  information.,Visual Cortex
+Visual Cortex,Cortex,Occipital Lobe,The region that interprets visual stimuli  from the eyes to construct an understanding of the visual environment.,
+Auditory Cortex,Cortex,Temporal Lobe,"Processes and interprets sound information  from the ears, crucial for recognizing speech and music.",
+Somatosensory Cortex,Cortex,Parietal Lobe,"Receives and processes sensory input from  the body, such as touch, pressure, and temperature.",
+Sensory Association Cortex,Association AreaCortex,Parietal Lobe,Integrates and interprets sensory  information to provide a comprehensive perception of the environment.,
+Motor Cortex,Cortex,Frontal Lobe,Controls and coordinates voluntary muscle  movements throughout the body.,
+Motor Association Cortex,Association AreaCortex,Frontal Lobe,Plans and organizes voluntary movements  before they are carried out by the motor cortex.,
+Corpus Callosum,Structure,Telencephalon,Facilitates communication between the left and right hemispheres of the brain.,
+Limbic Cortex,Structure,Limbic System,"Involved in emotional regulation, decision making, and memory.",
+Cingulate Gyrus,Structure,Limbic System,"Plays a role in regulating emotions and pain, as well as predicting and avoiding negative consequences.",
+Hippocampus,Structure,Limbic System,"Critical for memory formation, organization, and spatial navigation.",
+Amygdala,Structure,Limbic System,"Processes emotions, particularly fear and pleasure, and plays a role in forming emotional memories.",
+Fornix,Structure,Limbic System,"Connects the hippocampus to other parts of the brain, supporting memory functions.",
+Mammillary Bodies,Structure,Limbic System,Involved in recollective memory and spatial memory processing.,
+Massa Intermedia,Structure,Thalamus,"Connects the two halves of the thalamus, though its exact function remains unclear.",
+Cerebellum,Structure,,"Coordinates voluntary movements like posture, balance, coordination, and speech.",
+Pituitary Gland,Structure,Hypothalamus,"Secretes hormones that regulate growth, metabolism, and reproduction.","Anterior Pituitary Gland, Posterior Pituitary Gland"
+Optic Chiasm,Structure,Hypothalamus,"The point where optic nerves cross, allowing visual information to be processed by both hemispheres of the brain.",
+Anterior Pituitary Gland,Structure,Pituitary Gland,,
+Posterior Pituitary Gland,Structure,Pituitary Gland,,
+Tectum,Structure,Mesencephalon,,"Superior Colliculi, Inferior Colliculi"
+Superior Colliculi,Structure,Tectum,Plays a role in visual processing and eye movements.,
+Inferior Colliculi,Structure,Tectum,Involved in auditory processing and reflexive responses to sound.,
+Brain Stem,Subdivision,,Includes the Midbrain and Hindbrain,"Midbrain , Hindbrain"
+Tegmentum,Structure,Mesencephalon,,
+Reticular Formation,Structure,"Mesencephalon , Diencephalon","Regulates wakefulness, sleep-wake transitions, and consciousness.",
+Periaquaductal gray matter,Structure,Mesencephalon,"Involved in pain modulation, defensive behavior, and reproductive behaviors.",
+Red Nucleus,Structure,Mesencephalon,"Helps coordinate limb movements, especially during motor learning.",
+Substantia Niagra,Structure,Mesencephalon,"Involved in movement regulation and reward, producing dopamine to control movement.",
+Pons,Structure,,"Relays messages between the cortex and the cerebellum, and plays a key role in sleep and respiration.",
+Cerebellar Cortex,Structure,Cerebellum,Plays a crucial role in fine-tuning motor activities and ensuring smooth coordination.,
+Inferior Cerebellar Peduncle,Structure,Cerebellum,Connects the medulla to the cerebellum and transmits sensory information.,
+Superior Cerebellar Peduncle,Structure,Cerebellum,"Connects the cerebellum to the midbrain, involved in motor control.",
+Middle Cerebellar Peduncle,Structure,Cerebellum,"Links the cerebellum to the pons, important for movement coordination.",
+Medulla Oblongata,Structure,Myelencephalon,"Controls autonomic functions such as heart rate, breathing, and digestion.",
+Spinal Cord,Structure,,"Transmits nerve signals between the brain and the body, controls reflexes.",
+Meninges,Structure,,Protects the central nervous system by encasing the brain and spinal cord.,"Dura Mater, Arachnoid Membrane, Pia Mater"
+Dura Mater,Structure,Meninges,"The tough outer layer of the meninges, providing protection to the brain and spinal cord.",
+Arachnoid Membrane,Structure,Meninges,A web-like structure that cushions the brain and spinal cord.,
+Pia Mater,Structure,Meninges,"The delicate innermost layer of the meninges, adhering closely to the brain and spinal cord.",
